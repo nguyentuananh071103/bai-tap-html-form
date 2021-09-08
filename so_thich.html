@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .do{
+            color: red;
+        }
+        .chu-xanh{
+            color: blue;
+            float: right;
+        }
+        #table-trong {
+            background: white;
+            border: 10px solid aqua;
+        }
+    </style>
+</head>
+<body>
+<table id="table-trong">
+    <tr>
+        <td colspan="3">
+            <h2 style="color: white; background: red; text-align: center">Sở thích của bạn</h2>
+        </td>
+    </tr>
+    <tr>
+        <td class="chu-xanh">Họ và tên</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="chu-xanh">Email</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="chu-xanh">Sở thích</td>
+        <td>
+            <table>
+                <tr>
+                    <td class="do"><input type="checkbox">Thể thao</td>
+                    <td class="do"><input type="checkbox">Âm nhạc</td>
+                    <td class="do"><input type="checkbox">Đọc sách</td>
+                </tr>
+                <tr>
+                    <td class="do"><input type="checkbox">Lướt web</td>
+                    <td class="do"><input type="checkbox">Chơi game</td>
+                    <td class="do"><input type="checkbox">Điện ảnh</td>
+                </tr>
+                <tr>
+                    <td class="do"><input type="checkbox">Du lịch</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button>Gửi thông tin</button>
+            <button>Nhập lại</button>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
